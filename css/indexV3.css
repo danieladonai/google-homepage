@@ -1,0 +1,126 @@
+html {
+  font-family: arial,sans-serif;
+}
+
+button {
+  background-color: #e7e7e7;
+  color: #5F6368;
+  font-size: 14px;
+  text-align: center;
+  height: 36px;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+}
+
+
+a {
+  text-decoration: none;
+  text-decoration-color: black;
+  color: #000;
+  padding-left: 15px;
+}
+
+input {
+  border: none;
+  width: 400px;
+  height: 40px;
+  align-items: center;
+}
+
+/* Classes  */
+
+.nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin: auto;
+  padding: 17px 0px;
+  display: block;
+}
+
+
+.leftNav {
+  float: left;
+}
+
+.rightNav {
+  float: right;
+}
+
+.footerNav {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  padding: 17px 0px;
+  display: block;
+  font-size: 15px;
+  color: rgba(0,0,0,.54);
+  background-color: #f2f2f2;
+  vertical-align: middle;
+  line-height: 40px;
+  padding-left: 27px;
+
+}
+
+.leftFooterNav {
+  float: left;
+}
+
+.rightFooterNav {
+  float: right;
+}
+
+.lowerFooterNav {
+  border-top: 1px solid #e4e4e4;
+}
+
+
+
+#appListNav #accountLinkNav img {
+  padding-left: 15px;
+}
+
+#accountLinkNav img {
+  padding-right: 15px;
+}
+
+.nav a {
+  opacity: 75%;
+}
+
+.search {
+  display: block;
+  margin: auto;
+  padding: auto;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+}
+
+.logo img {
+  height: 92px;
+  width: 272px;
+  padding-top: 180px;
+}
+
+.input {
+  border: 1px solid #dfe1e5;
+  border-radius: 30px;
+  width: 483px;
+  height: 44px;
+  margin: auto;
+}
+
+/* .input:hover {
+
+} */
+.searchButtons {
+  padding-top: 18px;
+}
+
+.button {
+  margin: 4px;
+  padding: 0px 16px;
+
+}

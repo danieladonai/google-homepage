@@ -1,0 +1,33 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  text-decoration:none;
+}
+
+li.rightSection a {
+  style: "float-right";
+}
+
+ul.footerSectionUL {
+  background-color: grey;
+}
+
+img.logoImg {
+  max-width: 20%;
+}
+
+button {
+  background-color: #e7e7e7;
+  color: #5F6368;
+  font-size: 14px;
+}
